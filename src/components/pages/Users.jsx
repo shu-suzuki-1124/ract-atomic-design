@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { SearchInput } from "../molecules/SearchInput";
 import { UserCard } from "../organisms/user/UserCard";
+import { useLocation } from "react-router-dom";
 
 const users = [...Array(10).keys()].map((val) => {
   return {
